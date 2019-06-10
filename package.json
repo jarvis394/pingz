@@ -1,0 +1,52 @@
+{
+  "name": "tihon-web",
+  "version": "0.1.0",
+  "dependencies": {
+    "@material-ui/core": "^4.1.0",
+    "@material-ui/docs": "^3.0.0-alpha.9",
+    "@material-ui/icons": "^3.0.2",
+    "@material-ui/styles": "^4.1.0",
+    "axios": "^0.19.0",
+    "i18next": "^15.1.2",
+    "jss": "^10.0.0-alpha.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-router-native": "^5.0.0",
+    "react-window": "^1.8.2",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^6.1.0",
+    "redux-thunk": "^2.3.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {
+    "react-scripts": "^2.1.8"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "license": "MIT",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "nodemonConfig": {
+    "ignore": [
+      "*.json",
+      "views/",
+      "public/"
+    ],
+    "delay": "10000"
+  }
+}
